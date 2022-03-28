@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <img src="assets/logoWhite.png" alt="" srcset="">
+    </header>
+
+    <main class="container">
+        <article class="card">
+            <header class="card__header">
+                <p>BRL para Dólar</p>
+                <img src="assets/dolar.svg" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="real" placeholder="Informe o valor em Real">
+                <button type="button" onclick="moeda.converterRealDolar()">Converter</button>
+            </form>
+
+            <section class="content" id="resultadoImc"></section>
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>BRL para Euro</p>
+                <img src="assets/euro.svg" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="peso" placeholder="Informe o valor em Real">
+                <button type="button" onclick="">Converter</button>
+            </form>
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>BRL para Libra</p>
+                <img src="assets/libra.png" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="peso" placeholder="Informe o valor em Real">
+                <button type="button" onclick="">Converter</button>
+            </form>
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>Dólar para BRL</p>
+                <img src="assets/real.svg" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="peso" placeholder="Informe o valor em Dólar">
+                <button type="button" onclick="">Converter</button>
+            </form>
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>Euro para BRL</p>
+                <img src="assets/real.svg" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="peso" placeholder="Informe o valor em Euro">
+                <button type="button" onclick="">Converter</button>
+            </form>
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>Libra para BRL</p>
+                <img src="assets/real.svg" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="peso" placeholder="Informe o valor em Libras">
+                <button type="button" onclick="">Converter</button>
+            </form>
+        </article>
+    </main>
+    
+</body>
+</html>
